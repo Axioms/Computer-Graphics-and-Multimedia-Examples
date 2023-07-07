@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\04-adjust-normals.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\04-adjust-normals.dir/objects.a @CMakeFiles\04-adjust-normals.dir\objects1.rsp
+c:\mingw\bin\mingw32-g++.exe -g -Wl,--whole-archive CMakeFiles\04-adjust-normals.dir/objects.a -Wl,--no-whole-archive -o 04-adjust-normals.exe -Wl,--out-implib,lib04-adjust-normals.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\04-adjust-normals.dir\linklibs.rsp

@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\05-point-lighting.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\05-point-lighting.dir/objects.a @CMakeFiles\05-point-lighting.dir\objects1.rsp
+c:\mingw\bin\mingw32-g++.exe -g -Wl,--whole-archive CMakeFiles\05-point-lighting.dir/objects.a -Wl,--no-whole-archive -o 05-point-lighting.exe -Wl,--out-implib,lib05-point-lighting.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\05-point-lighting.dir\linklibs.rsp

@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="m06_advanced_textures"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\01-cube-map\;CMake Files\02-sky-box\;CMake Files\03-reflecting-object\;CMake Files\04-render-to-texture\;CMake Files\05B-image-processing\;CMake Files\06-point-sprites\;CMake Files\07-point-sprites-2\;CMake Files\05A-pixel-filters\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-cube-map">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/01-cube-map.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 01-cube-map"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-cube-map/fast">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/01-cube-map.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 01-cube-map/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="07-point-sprites-2">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/07-point-sprites-2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 07-point-sprites-2"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="07-point-sprites-2/fast">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/07-point-sprites-2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 07-point-sprites-2/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="06-point-sprites">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/06-point-sprites.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 06-point-sprites"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="06-point-sprites/fast">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/06-point-sprites.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 06-point-sprites/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-sky-box">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/02-sky-box.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 02-sky-box"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-sky-box/fast">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/02-sky-box.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 02-sky-box/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05B-image-processing">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/05B-image-processing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 05B-image-processing"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05B-image-processing/fast">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/05B-image-processing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 05B-image-processing/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03-reflecting-object">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/03-reflecting-object.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 03-reflecting-object"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03-reflecting-object/fast">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/03-reflecting-object.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 03-reflecting-object/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04-render-to-texture">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/04-render-to-texture.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 04-render-to-texture"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04-render-to-texture/fast">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/04-render-to-texture.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 04-render-to-texture/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05A-pixel-filters">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/05A-pixel-filters.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 05A-pixel-filters"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05A-pixel-filters/fast">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/05A-pixel-filters.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 05A-pixel-filters/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/01-cube-map/cube-map.cpp">
+			<Option target="01-cube-map"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/02-sky-box/skybox.cpp">
+			<Option target="02-sky-box"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/03-reflecting-object/reflecting-object.cpp">
+			<Option target="03-reflecting-object"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/04-render-to-texture/render-to-texture.cpp">
+			<Option target="04-render-to-texture"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/04-render-to-texture/setup_scene.cpp">
+			<Option target="04-render-to-texture"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/04-render-to-texture/setup_view_in_view.cpp">
+			<Option target="04-render-to-texture"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/05A-pixel-filters/pixel_filters.cpp">
+			<Option target="05A-pixel-filters"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/05B-image-processing/image-processing.cpp">
+			<Option target="05B-image-processing"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/05B-image-processing/setup_scene.cpp">
+			<Option target="05B-image-processing"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/05B-image-processing/setup_view_in_view.cpp">
+			<Option target="05B-image-processing"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/06-point-sprites/point-shape.h">
+			<Option target="06-point-sprites"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/06-point-sprites/point_sprites.cpp">
+			<Option target="06-point-sprites"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/07-point-sprites-2/point_sprites.cpp">
+			<Option target="07-point-sprites-2"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/01-cube-map/fragment_shader01.glsl">
+			<Option virtualFolder="CMake Files\01-cube-map\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/01-cube-map/vertex_shader01.glsl">
+			<Option virtualFolder="CMake Files\01-cube-map\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/02-sky-box/fragment_shader02.glsl">
+			<Option virtualFolder="CMake Files\02-sky-box\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/02-sky-box/vertex_shader02.glsl">
+			<Option virtualFolder="CMake Files\02-sky-box\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/03-reflecting-object/fragment_shader03x.glsl">
+			<Option virtualFolder="CMake Files\03-reflecting-object\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/03-reflecting-object/vertex_shader03x.glsl">
+			<Option virtualFolder="CMake Files\03-reflecting-object\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/04-render-to-texture/scene_fragment_shader04.glsl">
+			<Option virtualFolder="CMake Files\04-render-to-texture\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/04-render-to-texture/scene_vertex_shader04.glsl">
+			<Option virtualFolder="CMake Files\04-render-to-texture\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/04-render-to-texture/view_in_view_fragment_shader04.glsl">
+			<Option virtualFolder="CMake Files\04-render-to-texture\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/04-render-to-texture/view_in_view_vertex_shader04.glsl">
+			<Option virtualFolder="CMake Files\04-render-to-texture\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/05B-image-processing/image_processing_fragment_shader.glsl">
+			<Option virtualFolder="CMake Files\05B-image-processing\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/05B-image-processing/image_processing_vertex_shader.glsl">
+			<Option virtualFolder="CMake Files\05B-image-processing\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/05B-image-processing/scene_fragment_shader05B.glsl">
+			<Option virtualFolder="CMake Files\05B-image-processing\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/05B-image-processing/scene_vertex_shader05B.glsl">
+			<Option virtualFolder="CMake Files\05B-image-processing\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/06-point-sprites/fragment_shader06.glsl">
+			<Option virtualFolder="CMake Files\06-point-sprites\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/06-point-sprites/vertex_shader06.glsl">
+			<Option virtualFolder="CMake Files\06-point-sprites\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/07-point-sprites-2/fragment_shader07.glsl">
+			<Option virtualFolder="CMake Files\07-point-sprites-2\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/07-point-sprites-2/vertex_shader07.glsl">
+			<Option virtualFolder="CMake Files\07-point-sprites-2\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/05A-pixel-filters/fragment_shader05A.glsl">
+			<Option virtualFolder="CMake Files\05A-pixel-filters\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/05A-pixel-filters/vertex_shader05A.glsl">
+			<Option virtualFolder="CMake Files\05A-pixel-filters\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

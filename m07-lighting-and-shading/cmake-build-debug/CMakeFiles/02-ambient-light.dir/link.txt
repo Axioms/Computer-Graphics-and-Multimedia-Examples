@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\02-ambient-light.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\02-ambient-light.dir/objects.a @CMakeFiles\02-ambient-light.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\02-ambient-light.dir/objects.a -Wl,--no-whole-archive -o 02-ambient-light.exe -Wl,--out-implib,lib02-ambient-light.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\02-ambient-light.dir\linklibs.rsp

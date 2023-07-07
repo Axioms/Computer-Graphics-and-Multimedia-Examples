@@ -1,0 +1,37 @@
+[
+{
+  "directory": "C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/build",
+  "command": "c:\\mingw\\bin\\mingw32-g++.exe  @CMakeFiles/01-ambient-color.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles\\01-ambient-color.dir\\01-ambient-color\\ambient_color.cpp.obj -c \"C:\\Users\\bsetz\\OneDrive - Kennesaw State University\\courses\\4722fa21\\4722fa21_code\\example_stream\\m07-lighting-and-shading\\01-ambient-color\\ambient_color.cpp\"",
+  "file": "C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/01-ambient-color/ambient_color.cpp"
+},
+{
+  "directory": "C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/build",
+  "command": "c:\\mingw\\bin\\mingw32-g++.exe  @CMakeFiles/02-ambient-light.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles\\02-ambient-light.dir\\02-ambient-light\\ambient-light.cpp.obj -c \"C:\\Users\\bsetz\\OneDrive - Kennesaw State University\\courses\\4722fa21\\4722fa21_code\\example_stream\\m07-lighting-and-shading\\02-ambient-light\\ambient-light.cpp\"",
+  "file": "C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/02-ambient-light/ambient-light.cpp"
+},
+{
+  "directory": "C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/build",
+  "command": "c:\\mingw\\bin\\mingw32-g++.exe  @CMakeFiles/03-visualize-normals.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles\\03-visualize-normals.dir\\03-visualize-normals\\visualize_normals.cpp.obj -c \"C:\\Users\\bsetz\\OneDrive - Kennesaw State University\\courses\\4722fa21\\4722fa21_code\\example_stream\\m07-lighting-and-shading\\03-visualize-normals\\visualize_normals.cpp\"",
+  "file": "C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/03-visualize-normals/visualize_normals.cpp"
+},
+{
+  "directory": "C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/build",
+  "command": "c:\\mingw\\bin\\mingw32-g++.exe  @CMakeFiles/07-shading-textures.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles\\07-shading-textures.dir\\07-shading-textures\\shading_textures_world_coordinates.cpp.obj -c \"C:\\Users\\bsetz\\OneDrive - Kennesaw State University\\courses\\4722fa21\\4722fa21_code\\example_stream\\m07-lighting-and-shading\\07-shading-textures\\shading_textures_world_coordinates.cpp\"",
+  "file": "C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/07-shading-textures/shading_textures_world_coordinates.cpp"
+},
+{
+  "directory": "C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/build",
+  "command": "c:\\mingw\\bin\\mingw32-g++.exe  @CMakeFiles/04-adjust-normals.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles\\04-adjust-normals.dir\\04-adjust-normals\\adjust_normals.cpp.obj -c \"C:\\Users\\bsetz\\OneDrive - Kennesaw State University\\courses\\4722fa21\\4722fa21_code\\example_stream\\m07-lighting-and-shading\\04-adjust-normals\\adjust_normals.cpp\"",
+  "file": "C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/04-adjust-normals/adjust_normals.cpp"
+},
+{
+  "directory": "C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/build",
+  "command": "c:\\mingw\\bin\\mingw32-g++.exe  @CMakeFiles/06-directional-lighting.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles\\06-directional-lighting.dir\\06-directional-lighting\\directional_lighting.cpp.obj -c \"C:\\Users\\bsetz\\OneDrive - Kennesaw State University\\courses\\4722fa21\\4722fa21_code\\example_stream\\m07-lighting-and-shading\\06-directional-lighting\\directional_lighting.cpp\"",
+  "file": "C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/06-directional-lighting/directional_lighting.cpp"
+},
+{
+  "directory": "C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/build",
+  "command": "c:\\mingw\\bin\\mingw32-g++.exe  @CMakeFiles/05-point-lighting.dir/includes_CXX.rsp -g -std=gnu++2a -o CMakeFiles\\05-point-lighting.dir\\05-point-lighting\\point_lighting.cpp.obj -c \"C:\\Users\\bsetz\\OneDrive - Kennesaw State University\\courses\\4722fa21\\4722fa21_code\\example_stream\\m07-lighting-and-shading\\05-point-lighting\\point_lighting.cpp\"",
+  "file": "C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/05-point-lighting/point_lighting.cpp"
+}
+]

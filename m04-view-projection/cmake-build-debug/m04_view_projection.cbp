@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="m04_view_projection"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05-callbacks-util">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/05-callbacks-util.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 05-callbacks-util"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05-callbacks-util/fast">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/05-callbacks-util.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 05-callbacks-util/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-camera">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/01-camera.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 01-camera"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01-camera/fast">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/01-camera.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 01-camera/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-projection">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/02-projection.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 02-projection"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02-projection/fast">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/02-projection.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 02-projection/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03-user-interaction">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/03-user-interaction.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 03-user-interaction"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03-user-interaction/fast">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/03-user-interaction.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 03-user-interaction/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04-window-events">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/04-window-events.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 04-window-events"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04-window-events/fast">
+				<Option output="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/04-window-events.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/lib"/>
+					<Add directory="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/../lib-common"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 04-window-events/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/01-camera/animation-with-camera.cpp">
+			<Option target="01-camera"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/02-projection/view-and-projection.cpp">
+			<Option target="02-projection"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/03-user-interaction/user-interaction.cpp">
+			<Option target="03-user-interaction"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/04-window-events/window_events.cpp">
+			<Option target="04-window-events"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/05-callbacks-util/callbacks_util.cpp">
+			<Option target="05-callbacks-util"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/fragment_shader.glsl">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/vertex_shader.glsl">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

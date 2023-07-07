@@ -1,0 +1,9 @@
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m07-lighting-and-shading/cmake-build-debug/CMakeFiles/01-ambient-color.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m07-lighting-and-shading/cmake-build-debug/CMakeFiles/02-ambient-light.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m07-lighting-and-shading/cmake-build-debug/CMakeFiles/03-visualize-normals.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m07-lighting-and-shading/cmake-build-debug/CMakeFiles/07-shading-textures.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m07-lighting-and-shading/cmake-build-debug/CMakeFiles/04-adjust-normals.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m07-lighting-and-shading/cmake-build-debug/CMakeFiles/06-directional-lighting.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m07-lighting-and-shading/cmake-build-debug/CMakeFiles/05-point-lighting.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m07-lighting-and-shading/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m07-lighting-and-shading/cmake-build-debug/CMakeFiles/rebuild_cache.dir

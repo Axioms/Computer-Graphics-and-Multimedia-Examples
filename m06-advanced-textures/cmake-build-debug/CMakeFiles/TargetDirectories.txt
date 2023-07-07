@@ -1,0 +1,10 @@
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/CMakeFiles/01-cube-map.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/CMakeFiles/07-point-sprites-2.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/CMakeFiles/06-point-sprites.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/CMakeFiles/02-sky-box.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/CMakeFiles/05B-image-processing.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/CMakeFiles/03-reflecting-object.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/CMakeFiles/04-render-to-texture.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/CMakeFiles/05A-pixel-filters.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m06-advanced-textures/cmake-build-debug/CMakeFiles/rebuild_cache.dir

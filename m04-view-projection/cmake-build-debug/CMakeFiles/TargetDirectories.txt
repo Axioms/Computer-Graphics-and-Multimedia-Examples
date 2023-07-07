@@ -1,0 +1,7 @@
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/CMakeFiles/05-callbacks-util.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/CMakeFiles/01-camera.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/CMakeFiles/02-projection.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/CMakeFiles/03-user-interaction.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/CMakeFiles/04-window-events.dir
+D:/data/drive/College/Forth Year/Fall Semester/Computer Graphics and Multimedia/examples/m04-view-projection/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\03-visualize-normals.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\03-visualize-normals.dir/objects.a @CMakeFiles\03-visualize-normals.dir\objects1.rsp
+c:\mingw\bin\mingw32-g++.exe -g -Wl,--whole-archive CMakeFiles\03-visualize-normals.dir/objects.a -Wl,--no-whole-archive -o 03-visualize-normals.exe -Wl,--out-implib,lib03-visualize-normals.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\03-visualize-normals.dir\linklibs.rsp

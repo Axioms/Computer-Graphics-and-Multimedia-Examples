@@ -1,0 +1,9 @@
+C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/build/CMakeFiles/01-ambient-color.dir
+C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/build/CMakeFiles/02-ambient-light.dir
+C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/build/CMakeFiles/03-visualize-normals.dir
+C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/build/CMakeFiles/07-shading-textures.dir
+C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/build/CMakeFiles/04-adjust-normals.dir
+C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/build/CMakeFiles/06-directional-lighting.dir
+C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/build/CMakeFiles/05-point-lighting.dir
+C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/build/CMakeFiles/edit_cache.dir
+C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/build/CMakeFiles/rebuild_cache.dir

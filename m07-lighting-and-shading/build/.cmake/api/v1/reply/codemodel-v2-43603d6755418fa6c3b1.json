@@ -1,0 +1,113 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "m07_lighting_and_shading",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01-ambient-color::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-ambient-color-Debug-e314744dc1fb9b5c44b1.json",
+					"name" : "01-ambient-color",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-ambient-light::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-ambient-light-Debug-c0df45bf4f1ba3e47440.json",
+					"name" : "02-ambient-light",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-visualize-normals::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-visualize-normals-Debug-a72d9fdf041aabf20ed2.json",
+					"name" : "03-visualize-normals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04-adjust-normals::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04-adjust-normals-Debug-c5cd0b2c7033b28b3495.json",
+					"name" : "04-adjust-normals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "05-point-lighting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-05-point-lighting-Debug-fb70160a6e90445867e9.json",
+					"name" : "05-point-lighting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "06-directional-lighting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-06-directional-lighting-Debug-60a6509a26349ce1123c.json",
+					"name" : "06-directional-lighting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "07-shading-textures::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-07-shading-textures-Debug-1031f54fa342fecad099.json",
+					"name" : "07-shading-textures",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading/build",
+		"source" : "C:/Users/bsetz/OneDrive - Kennesaw State University/courses/4722fa21/4722fa21_code/example_stream/m07-lighting-and-shading"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

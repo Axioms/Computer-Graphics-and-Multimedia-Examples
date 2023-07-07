@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\05A-pixel-filters.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\05A-pixel-filters.dir/objects.a @CMakeFiles\05A-pixel-filters.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\05A-pixel-filters.dir/objects.a -Wl,--no-whole-archive -o 05A-pixel-filters.exe -Wl,--out-implib,lib05A-pixel-filters.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\05A-pixel-filters.dir\linklibs.rsp
